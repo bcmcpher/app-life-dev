@@ -4,7 +4,7 @@ if ~isdeployed
     % used to run natively (through matlab)
     disp('loading paths')
 
-    addpath(genpath('/N/u/brlife/git/encode'))
+    addpath(genpath('/geode2/home/u010/bcmcpher/Carbonate/matlab/encode'))
     %addpath(genpath('/N/u/hayashis/git/vistasoft'))
     addpath(genpath('/N/u/brlife/git/vistasoft'))
     addpath(genpath('/N/u/brlife/git/jsonlab'))
