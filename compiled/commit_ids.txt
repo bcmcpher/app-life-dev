@@ -1,0 +1,21 @@
+/geode2/home/u010/bcmcpher/Carbonate/matlab/encode
+commit be97e7b751d31daaf87d60c8223a4d4691b80991
+Author: bcmcpher <bcmcpher@iu.edu>
+Date:   Thu Mar 11 17:07:05 2021 -0500
+
+    added checks to loading multishell info to fill in old single shell structures
+/N/u/brlife/git/vistasoft
+commit fff02a6fea0c84f2df6cb497ed406fb7866b2f72
+Author: jwinawer <jonathan.winawer@nyu.edu>
+Date:   Mon May 11 19:52:00 2020 -0400
+
+    in the case where the requested coords are the same as the full set of coords in the view structure, return without searching to save time
+/N/u/brlife/git/jsonlab
+commit 474d8c824800b5f2109c08f989085cb961acdbe3
+Merge: ae7a5d9 38b24fb
+Author: Qianqian Fang <fangqq@gmail.com>
+Date:   Wed Sep 6 13:01:57 2017 -0400
+
+    Merge pull request #41 from dasantonym/master
+    
+    added package.json to be able to intall via npm package manager
