@@ -14,6 +14,7 @@ echo "/N/u/brlife/git/jsonlab" >> $log
 (cd /N/u/brlife/git/jsonlab && git log -1) >> $log
 
 cat > build.m <<END
+restoredefaultpath
 addpath(genpath('/geode2/home/u010/bcmcpher/Carbonate/matlab/encode'))
 addpath(genpath('/N/u/brlife/git/vistasoft'))
 addpath(genpath('/N/u/brlife/git/jsonlab'))
