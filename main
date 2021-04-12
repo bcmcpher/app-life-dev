@@ -17,3 +17,8 @@ then
     echo "output_fe.mat missing"
     exit 1
 fi
+
+mkdir life
+mv output_fe.mat life
+mv life_results.json life
+mv tracts life
